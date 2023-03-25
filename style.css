@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(77, 222, 251), rgb(249, 253, 249));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    font-size: 125%;
+}
+
+.carousel {
+    margin-left: 15%;
+    height: 40%;
+    width: 70%;
+}
+
+.card {
+    padding-top: 5px;
+    margin: 10px;
+    background: linear-gradient(130deg, rgb(205, 225, 243), rgb(248, 148, 203));
+    height: 30rem;
+}
+
+.card img {
+    height: 20rem;
+}
+
+nav-link {
+    color: aqua;
+}
+
+nav-link:hover {
+    color: rgb(7, 161, 161);
+    box-shadow: 10px;
+}
+
+nav a {
+    font-size: 150%;
+}
+
+.card:hover {
+    width: 18rem;
+}
